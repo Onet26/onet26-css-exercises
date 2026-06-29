@@ -45,25 +45,21 @@ body {
 
 .deck {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 48px;
   flex-wrap: wrap;
-  gap: 20px;
-}
-
-.container {
-  display: flex;
+  gap: 32px;
 }
 
 ul {
   list-style: none;
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
-  gap: 16px;
 }
+
+li {
+  margin-bottom: 16px;
+}
+
 
 a {
   text-decoration: none;
